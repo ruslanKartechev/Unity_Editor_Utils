@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace EditorUtils
+namespace EditorUtils.CustomEditorExamples
 {
     [CustomEditor(typeof(LabelsExample))]
     public class LabelsExampleEditor : Editor

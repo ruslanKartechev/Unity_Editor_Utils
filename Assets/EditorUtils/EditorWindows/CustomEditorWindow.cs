@@ -4,10 +4,9 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-
-namespace EditorUtils
+namespace EditorUtils.EditorWindows
 {
-    public class MyCustomEditor : EditorWindow
+    public class CustomEditorWindow : EditorWindow
     {
         private VisualElement m_RightPane;
         
@@ -15,7 +14,7 @@ namespace EditorUtils
         public static void ShowMyEditor()
         {
             // This method is called when the user selects the menu item in the Editor
-            EditorWindow wnd = GetWindow<MyCustomEditor>();
+            EditorWindow wnd = GetWindow<CustomEditorWindow>();
             wnd.titleContent = new GUIContent("My Custom Editor");
         }
         

@@ -34,93 +34,94 @@ namespace EditorUtils
         public const int square_btn_size_big = 50;
         public const int square_btn_size_large = 60;
 
+        
         #region Colors
 
         private const float Alpha = 0.85f;
-        public static Color White = new Color(255, 255, 255, Alpha);      
-        public static Color Black = new Color(0, 0, 0, Alpha);      
+        public static Color White = new(255, 255, 255, Alpha);      
+        public static Color Black = new(0, 0, 0, Alpha);      
         /// Red
-        public static Color Red = new Color(255, 0, 0, Alpha);      
+        public static Color Red = new(255, 0, 0, Alpha);      
         /// Red
-        public static Color LightCoral = new Color(240, 128, 128, Alpha);        
+        public static Color LightCoral = new(240, 128, 128, Alpha);        
         /// Red
-        public static Color Crimson = new Color(220, 20, 60, Alpha);        
+        public static Color Crimson = new (220, 20, 60, Alpha);        
         /// Red
-        public static Color FireBrick = new Color(178, 34, 34, Alpha);        
+        public static Color FireBrick = new (178, 34, 34, Alpha);        
         /// Pink
-        public static Color Pink = new Color(255, 192, 203, Alpha);        
+        public static Color Pink = new (255, 192, 203, Alpha);        
         /// Pink
-        public static Color HotPink = new Color(255, 105, 180, Alpha);
+        public static Color HotPink = new (255, 105, 180, Alpha);
         /// Pink
-        public static Color DeepPink = new Color(255, 20, 147, Alpha);
+        public static Color DeepPink = new (255, 20, 147, Alpha);
         
         /// Yellow
-        public static Color DarkOrange = new Color(255, 140, 0, Alpha);
+        public static Color DarkOrange = new (255, 140, 0, Alpha);
         /// Yellow
-        public static Color Orange = new Color(255, 165, 0, Alpha);
+        public static Color Orange = new (255, 165, 0, Alpha);
         /// Yellow
-        public static Color Gold = new Color(255, 215, 0, Alpha);
+        public static Color Gold = new (255, 215, 0, Alpha);
         /// Yellow
-        public static Color LightYellow = new Color(255, 255, 224, Alpha);
+        public static Color LightYellow = new (255, 255, 224, Alpha);
         /// Yellow
-        public static Color Moccasin = new Color(255, 228, 181, Alpha);
+        public static Color Moccasin = new (255, 228, 181, Alpha);
         /// Yellow
-        public static Color PeachPuff = new Color(255, 218, 185, Alpha);
+        public static Color PeachPuff = new (255, 218, 185, Alpha);
         
         /// Purple
-        public static Color Lavender = new Color(230, 230, 250, Alpha);
+        public static Color Lavender = new (230, 230, 250, Alpha);
         /// Purple
-        public static Color Plum = new Color(221, 160, 221, Alpha);
+        public static Color Plum = new (221, 160, 221, Alpha);
         /// Purple
-        public static Color Violent = new Color(238, 130, 238, Alpha);
+        public static Color Violent = new (238, 130, 238, Alpha);
         /// Purple
-        public static Color Fuchsia = new Color(255, 0, 255, Alpha);
+        public static Color Fuchsia = new (255, 0, 255, Alpha);
         /// Purple
-        public static Color MediumOrchid = new Color(186, 85, 211, Alpha);
+        public static Color MediumOrchid = new (186, 85, 211, Alpha);
         /// Purple
-        public static Color MediumPurple = new Color(147, 112, 219, Alpha);
+        public static Color MediumPurple = new (147, 112, 219, Alpha);
         /// Purple
-        public static Color RebeccaPurple = new Color(102, 51, 153, Alpha);
+        public static Color RebeccaPurple = new (102, 51, 153, Alpha);
         /// Purple
-        public static Color Purple = new Color(128, 0, 128, Alpha);
+        public static Color Purple = new (128, 0, 128, Alpha);
         /// Purple
-        public static Color MediumSlateBlue = new Color(123, 104, 238, Alpha);
+        public static Color MediumSlateBlue = new (123, 104, 238, Alpha);
         
         /// Green
-        public static Color GreenYellow = new Color(173, 255, 47, Alpha);
+        public static Color GreenYellow = new (173, 255, 47, Alpha);
         /// Green
-        public static Color Chartreuse = new Color(127, 255, 0, Alpha);
+        public static Color Chartreuse = new (127, 255, 0, Alpha);
         /// Green
-        public static Color Lime = new Color(0, 255, 0, Alpha);
+        public static Color Lime = new (0, 255, 0, Alpha);
         /// Green
-        public static Color SpringGreen = new Color(0, 255, 127, Alpha);
+        public static Color SpringGreen = new (0, 255, 127, Alpha);
         /// Green
-        public static Color ForestGreen = new Color(34, 139, 34, Alpha);
+        public static Color ForestGreen = new (34, 139, 34, Alpha);
         /// Green
-        public static Color DarkGreen = new Color(0, 100, 0, Alpha);
+        public static Color DarkGreen = new (0, 100, 0, Alpha);
         /// Green
-        public static Color MediumAquamarine = new Color(102, 205, 170, Alpha);
+        public static Color MediumAquamarine = new (102, 205, 170, Alpha);
         /// Green
-        public static Color LightSeaGreen = new Color(32, 178, 170, Alpha);
+        public static Color LightSeaGreen = new (32, 178, 170, Alpha);
         /// Green
-        public static Color DarkCyan = new Color(0, 139, 139, Alpha);
+        public static Color DarkCyan = new (0, 139, 139, Alpha);
         
         /// Blue
-        public static Color Aqua = new Color(0, 255, 255, Alpha);
+        public static Color Aqua = new (0, 255, 255, Alpha);
         /// Blue
-        public static Color PaleTurquoise = new Color(175, 238, 238, Alpha);
+        public static Color PaleTurquoise = new (175, 238, 238, Alpha);
         /// Blue
-        public static Color Turquoise = new Color(64, 224, 208, Alpha);
+        public static Color Turquoise = new (64, 224, 208, Alpha);
         /// Blue
-        public static Color SteelBlue = new Color(70, 130, 180, Alpha);
+        public static Color SteelBlue = new (70, 130, 180, Alpha);
         /// Blue
-        public static Color DeepSkyBlue = new Color(0, 191, 255, Alpha);
+        public static Color DeepSkyBlue = new (0, 191, 255, Alpha);
         /// Blue
-        public static Color RoyalBlue = new Color(65, 105, 225, Alpha);
+        public static Color RoyalBlue = new (65, 105, 225, Alpha);
         /// Blue
-        public static Color MediumBlue = new Color(0, 0, 205, Alpha);
+        public static Color MediumBlue = new (0, 0, 205, Alpha);
         /// Blue
-        public static Color Navy = new Color(0, 0, 128, Alpha);
+        public static Color Navy = new (0, 0, 128, Alpha);
         #endregion
 
         
@@ -378,7 +379,7 @@ namespace EditorUtils
         private static void SetButtonTextColor(GUIStyle style, Color buttonColor)
         {
             var cl = (buttonColor.r + buttonColor.g + buttonColor.b) * buttonColor.a;
-            if (cl > 80)
+            if (cl > 50)
                 style.normal.textColor = Black;
             else
                 style.normal.textColor = Color.white;

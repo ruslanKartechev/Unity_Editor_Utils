@@ -1,15 +1,14 @@
-﻿using System;
-using UnityEditor;
+﻿using EditorUtils.EditorWindows;
 using UnityEngine;
 
-namespace EditorUtils
+namespace EditorUtils.CustomEditorExamples
 {
     public class GUIWindowExample : MonoBehaviour
     {
         
         public void Open()
         {
-            MyCustomEditor.ShowMyEditor();
+            CustomEditorWindow.ShowMyEditor();
         }
         
         
